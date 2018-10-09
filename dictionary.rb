@@ -15,7 +15,7 @@ definition = definition.body[0]["text"]
 example = example.body["text"]
 pronunciation = pronunciation.body[0]["raw"]
 
-p "The word #{word} means #{definition} and is prounounced as #{pronunciation}. The top example of the word, #{word} is #{example}."
+p "The word #{word} means #{definition}. It is prounounced as #{pronunciation}. The top example of the word, #{word} is #{example}."
 
 # JSON.pretty_generate(definition.body)
 # JSON.pretty_generate(example.body)
